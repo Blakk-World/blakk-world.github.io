@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Blog Dashboard</title>
+    <link rel="stylesheet" href="css/theme.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Poppins:wght@500;600;700&display=swap" rel="stylesheet">
+    <script src="js/theme.js"></script>
+</head>
+<body>
+    <nav class="nav">
+        <div class="nav-container container">
+            <h1>Blog Dashboard</h1>
+            <button class="btn btn-primary" onclick="themeManager.toggleTheme()">Toggle Theme</button>
+        </div>
+    </nav>
+
+    <main class="container">
+        <div style="margin: var(--spacing-lg) 0;">
+            <div class="grid">
+                <!-- Recent Posts -->
+                <div class="card">
+                    <h2>Recent Posts</h2>
+                    <div class="post-list">
+                        <div class="post-item" style="margin-bottom: var(--spacing-md);">
+                            <h3>Welcome to My Blog</h3>
+                            <p style="color: var(--text-light);">Posted on April 11, 2025</p>
+                        </div>
+                    </div>
+                    <button class="btn btn-secondary">New Post</button>
+                </div>
+
+                <!-- Quick Stats -->
+                <div class="card">
+                    <h2>Statistics</h2>
+                    <div style="margin-top: var(--spacing-md);">
+                        <p>Total Posts: 1</p>
+                        <p>Total Views: 0</p>
+                        <p>Last Updated: April 11, 2025</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+</body>
+</html>
