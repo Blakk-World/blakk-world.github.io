@@ -4,7 +4,8 @@ import react from '@vitejs/plugin-react'
 // https://vitejs.dev/config/
 export default defineConfig({
   plugins: [react()],
-  base: '/blakk-world.github.io/',
+  // base: '/blakk-world.github.io/',
+  base: "./",
   build: {
     outDir: 'dist',
     sourcemap: true
